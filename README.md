@@ -1,10 +1,10 @@
 # CatEscape
 
-Unity `2021.3.15f1`로 제작한 2D 유니티 기말 과제 프로젝트입니다.
+Unity `2021.3.15f1`로 제작한 2D 캐주얼 게임 프로젝트입니다.
 
 ## 소개
 
-`CatEscape`는 플레이어가 장애물을 피하고 아이템을 획득하며 진행하는 2D 게임 프로젝트입니다. 과제 제출용으로 제작한 Unity 프로젝트를 나중에 다시 열어볼 수 있도록 핵심 소스와 설정 파일만 GitHub에 정리했습니다.
+`CatEscape`는 플레이어가 장애물을 피하고 아이템을 획득하며 진행하는 2D 게임입니다. 간단한 조작, 아이템 생성, 체력 관리, 씬 전환 기능을 중심으로 구성되어 있습니다.
 
 ## 프로젝트 구성
 
@@ -30,17 +30,17 @@ Unity `2021.3.15f1`로 제작한 2D 유니티 기말 과제 프로젝트입니�
 ## 실행 방법
 
 1. Unity Hub를 실행합니다.
-2. `C:\UnityPro\CatEscape` 폴더를 프로젝트로 추가합니다.
+2. 이 저장소를 Unity 프로젝트로 추가합니다.
 3. Unity `2021.3.15f1` 또는 호환되는 `2021.3 LTS` 버전으로 엽니다.
 4. `Assets/GameScene.unity` 씬을 열어 실행합니다.
 
-## GitHub 업로드 기준
+## 버전 관리 기준
 
-이 저장소에는 프로젝트 복원에 필요한 파일만 포함했습니다. Unity가 자동으로 생성하는 `Library/`, `Logs/`, `UserSettings/`, APK 빌드 파일, Burst debug 폴더, Android 내보내기 결과물인 `phone/` 폴더는 `.gitignore`로 제외했습니다.
+Unity가 자동으로 생성하는 `Library/`, `Logs/`, `UserSettings/`, APK 빌드 파일, Burst debug 폴더, Android 내보내기 결과물인 `phone/` 폴더는 `.gitignore`로 제외했습니다.
 
 ## English
 
-Unity 2D final project built with Unity `2021.3.15f1`.
+Unity 2D casual game project built with Unity `2021.3.15f1`.
 
 ### Project Structure
 
@@ -69,7 +69,8 @@ Unity 2D final project built with Unity `2021.3.15f1`.
 ### Open The Project
 
 1. Open Unity Hub.
-2. Add this project folder: `C:\UnityPro\CatEscape`
+2. Add this repository as a Unity project.
 3. Open it with Unity `2021.3.15f1` or another compatible 2021.3 LTS editor.
+4. Open and run `Assets/GameScene.unity`.
 
-Generated Unity folders such as `Library/`, `Logs/`, `UserSettings/`, APK build outputs, and Burst debug folders are intentionally excluded from Git.
+Generated Unity folders such as `Library/`, `Logs/`, `UserSettings/`, APK build outputs, Android export output, and Burst debug folders are intentionally excluded from Git.
