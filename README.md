@@ -6,6 +6,12 @@ Unity `2021.3.15f1`로 제작한 2D 캐주얼 게임 프로젝트입니다.
 
 `CatEscape`는 플레이어가 장애물을 피하고 아이템을 획득하며 진행하는 2D 게임입니다. 간단한 조작, 아이템 생성, 체력 관리, 씬 전환 기능을 중심으로 구성되어 있습니다.
 
+## 스크린샷
+
+![CatEscape gameplay](Docs/images/gameplay.jpg)
+
+![CatEscape game over](Docs/images/game-over.jpg)
+
 ## 프로젝트 구성
 
 - `Assets/`: 씬, C# 스크립트, 프리팹, 이미지 리소스
@@ -41,6 +47,12 @@ Unity가 자동으로 생성하는 `Library/`, `Logs/`, `UserSettings/`, APK 빌
 ## English
 
 Unity 2D casual game project built with Unity `2021.3.15f1`.
+
+### Screenshots
+
+![CatEscape gameplay](Docs/images/gameplay.jpg)
+
+![CatEscape game over](Docs/images/game-over.jpg)
 
 ### Project Structure
 
